@@ -5,7 +5,7 @@ import { ResultPage } from './pages/ResultPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/claude-mbti">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/test" element={<TestPage />} />
